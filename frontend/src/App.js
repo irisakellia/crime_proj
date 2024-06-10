@@ -8,6 +8,7 @@ import BlogPage from './blog/BlogPage';
 import ContactPage from './contact/ContactPage';
 import Login from './components/login/Login';
 import SignUp from './components/signup/SignUp.jsx';
+import SignPage from './components/signup/SignPage.jsx'
 import { Toaster } from 'react-hot-toast';
 
 const routes = createBrowserRouter([
@@ -37,7 +38,7 @@ const routes = createBrowserRouter([
   },
   {
     path: '/sign',
-    element: <SignUp />,
+    element: <SignPage />,
   },
 ]);
 
